@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler 
 
-loaded_model = pickle.load(open('C:\Users\sansk\OneDrive\Desktop\New folder (3)', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 cat_col = [ 'gender', 'ethnicity', 'marital_status', 'education_level',
        'employment_status', 'smoking_status']
