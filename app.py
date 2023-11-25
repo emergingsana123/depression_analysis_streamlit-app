@@ -71,5 +71,5 @@ def main():
     if st.button('Depression Test Result'):
         diagnosis = depression_diagnosis(list(user_input.values()))
 
-        st.success(diagnosis)
+    st.success(diagnosis)
 
